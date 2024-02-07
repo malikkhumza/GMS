@@ -7,7 +7,8 @@ export default {
   theme: {
 
     fontFamily:{
-      Segoe : ['Segoe UI', 'sans-serif']
+      KeplerStd: ['Kepler Std Black Condensed Subhead'],
+      Sans: ['Sans']
     }
   },
   plugins: [],

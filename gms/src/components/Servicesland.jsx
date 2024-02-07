@@ -1,13 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Servicesland() {
   return (
-    <div className="h-max md:h-[830px] bg-slate-200 ">
-      <div className="py-10">
-        <p className="text-yellow-400 font-semibold flex justify-center mt-08 py-6">
+    <div className="h-max  w-full    bg-gray-900 py-12 ">
+      <div className="pt-20">
+        <p className="text-[#D5A021] font-semibold flex justify-center py-6">
           WHAT WE OFFER
         </p>
-        <p className="text-5xl flex justify-center font-bold">
+        <p className="text-5xl flex  font-KeplerStd justify-center font-bold text-white pb-4">
           Explore Services
         </p>
       </div>
@@ -29,37 +30,40 @@ function Servicesland() {
         </div> */}
       {/* </div> */}
       <div class=" max-w-sm mb-6 border border-gray-200   shadow bg-white">
-        <a href="#">
+        <NavLink to="/onetime">
           <img class="w-full" src="/public/img/img6.jpg" alt="" />
-        </a>
+        </NavLink>
         <div class="p-5 ">
-          <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+          <NavLink to="Onetime">
+            <h5 class="mb-2 text-2xl font-KeplerStd  font-bold tracking-tight text-gray-900">
               One Time Services
             </h5>
-          </a>
+          </NavLink>
           <p class="mb-3 font-normal text-gray-700">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, nam.
           </p>
         </div>
       </div>
       <div class=" max-w-sm mb-6  border border-gray-200  shadow bg-white">
-        <a href="#">
+        <NavLink to="/monthly">
           <img class="" src="/public/img/img7.jpg" alt="" />
-        </a>
+        </NavLink>
         <div class="p-5">
-          <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+          <NavLink to="monthly">
+            <h5 class="mb-2 text-2xl font-KeplerStd  font-bold tracking-tight text-gray-900">
               Monthly Services
             </h5>
-          </a>
+          </NavLink>
           <p class="mb-3 font-normal text-gray-700">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, nam.
           </p>
         </div>
       </div>
       </div>
+
+      
     </div>
+    
   );
 }
 
